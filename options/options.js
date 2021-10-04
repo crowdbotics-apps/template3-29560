@@ -3,4 +3,11 @@ export const globalOptions = {
   url: "https://template3_29560Identifier.botics.co",
   api: "https://template3_29560Identifier.botics.co/api/v1"
 }
-export const modulesOptions = {}
+
+export const modulesOptions = {
+  "@modules/app-menu": {
+    title: "App Menus",
+    copy: "Routes available",
+    styles: styles
+  }
+}
